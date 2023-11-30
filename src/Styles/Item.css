@@ -1,0 +1,63 @@
+.main-div{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+
+.items{
+    display:flex;
+    flex-wrap: wrap;
+}
+.item-image{
+    width:140px;
+    height:200px;
+}
+.item-description{
+    display: grid;
+    grid-template-columns: 80% 10%;
+    flex:2;
+    overflow: hidden;
+}
+.item{
+    width:280px;
+    height:350px;
+    border: 1px solid black;
+    padding:5px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.heart{
+   padding-right:20px;
+}
+.cart-btn{
+    background-color: rgb(250, 249, 249);
+    border: 1px solid black;
+    width: 130px;
+    height:35px;
+}
+.btn-fav{
+    background-color:white;
+    border: none;
+}
+.customized-heart{
+    color: red;
+}
+.heading{
+    font-family:sans-serif;
+}
+.wishList-items{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.wishlist-item{
+    border: 1px solid black;
+}
+.pd{
+    margin-right:5px;
+}
+.empty{
+    margin-top: 50px;
+    margin-left:520px;
+}
